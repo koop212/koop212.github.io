@@ -24,7 +24,7 @@ let resumeData = {
       {
         "UniversityName":"Prime Digital Academy",
         "specialization":"Full Stack Software Engineering Certification",
-        "MonthOfPassing":"Jul",
+        "MonthOfPassing":"July",
         "YearOfPassing":"2019",
         "Project1":"Solo Project - Developed a full stack web application called 'Book & Drive' that allows users to post their personal vehicle and other users to book a specified vehicle for a set price. The application allows users to book a vehicle with start and end date. Users can also rate and add comments to the vehicle they booked. Owners of vehicles are able to approve or decline requests. Created with React, Redux, Node.js, Express.js,  Passport, Material UI, and PostgreSQL.",
         "Project2":"Group Project - Developed an application called 'Brain Change' for a client.  Brain Change is a program to help users develop their five core values.  For over 20 years, user information was collected manually on paper. The client ask was to build a digital version of Brain Change. The application tracks who the users are and collect information to help decrease in data acquisition time, less input error, and ease of access to new users. Scoped and built the application by collaborating with 3 other developers. Solely responsible for creating functions and designing the interface of the quiz views. Created with: React, Redux, Node.js, Express.js, Passport, PostgreSQL, and Material UI."
