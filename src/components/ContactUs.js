@@ -5,10 +5,11 @@ export default class ContactUs extends Component {
     return (
       <section id="contact">
           <div className="row section-head">
-            <div className="ten columns">
-              <p className="lead">
+            <p className="lead">
               Feel free to contact me for any work or suggestions below
-              </p>
+            </p>
+            {/* <div className="ten columns">
+              <a href="mailto:bobby.khounphinith@gmail.com">Contact Me</a>
             </div>
           </div>
           <div className="row">
@@ -18,7 +19,15 @@ export default class ContactUs extends Component {
                   {resumeData.linkedinId}
                 </h4>
               </div>
-            </aside>
+            </aside> */}
+            <form name="input" method="POST" action="https://formspree.io/bobby.khounphinith@gmail.com">
+              Name: <input type="text" name="Name" placeholder="Your Name" />
+              Email: <input type="email" name="_replyto" placeholder="Your Email" />
+              Message: <textarea name="message" placeholder="Type your message"></textarea>
+              <input type="submit" value="Send" />
+              <input type="hidden" name="_subject" value="Enter your subject here" />
+              <input type="hidden" name="_next" value="thanks.html" />
+            </form>
           </div>
         </section>
         );
